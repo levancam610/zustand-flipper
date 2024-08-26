@@ -1,0 +1,19 @@
+{
+  "name": "zustand-flipper",
+  "version": "1.0.0",
+  "description": "Zustand Debugger for Flipper",
+  "main": "index.js",
+  "homepage": "https://github.com/levancam610/zustand-flipper",
+  "bugs": "https://github.com/levancam610/zustand-flipper/issues",
+  "repository": {
+    "url": "https://github.com/levancam610/zustand-flipper",
+    "type": "git"
+  },
+  "author": "Cam Le",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.63.0",
+    "react-native-flipper": ">=0.100.0",
+    "zustand": ">=4.0.0"
+  }
+}
