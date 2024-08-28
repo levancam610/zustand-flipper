@@ -44,7 +44,7 @@ export default function zustandFlipper(fn, storeName) {
             set(state, replace);
             let now = Date.now();
             if (connectionFlipper) {
-                const actionData = typeof state === 'function' ? state(get()) : state;
+                const actionData = typeof state === "function" ? state(before) : state;
                 const payload = {
                     id: startTime,
                     time: formatTimestampByMilliseconds(startTime),

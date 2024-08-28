@@ -1,6 +1,6 @@
 # Zustand Flipper
 
-![screenshot of the plugin](https://i.imgur.com/blqn8oT.png)
+![screenshot of the plugin](https://imgur.com/a/a4RyXA8)
 
 Zustand debugger for [Flipper](https://fbflipper.com/). It can log actions and show inside Flipper using [flipper-plugin-zustand-debugger](https://www.npmjs.com/package/flipper-plugin-zustand-debugger).
 
