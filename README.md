@@ -24,10 +24,10 @@ cd ios && pod install
 
 ```javascript
 import {create} from 'zustand';
-import zustandflipper from "zustand-flipper";
+import zustandFlipper from "zustand-flipper";
 
 const useBearStore = create(
-    zustandflipper(
+    zustandFlipper(
         set => ({
           bears: 0,
           increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
