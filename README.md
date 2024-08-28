@@ -24,7 +24,7 @@ cd ios && pod install
 
 ```javascript
 import {create} from 'zustand';
-import zustandFlipper from "zustand-flipper";
+import zustandFlipper from 'zustand-flipper';
 
 const useBearStore = create(
     zustandFlipper(
